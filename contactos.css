@@ -1,0 +1,92 @@
+body{
+    text-align: center;
+    background-color: black;
+}
+header{
+    width: 100%;
+    background-color:rgb(189, 148, 15) ;
+}
+#btn-menu{
+    display: none;
+}
+header label{
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-right: 1px solid #fff;
+}
+header label:hover{
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.3);
+}
+.menu ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.menu li{
+    text-align: center;
+    flex-grow: 1;
+}
+
+.menu li:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+
+}
+
+.menu li a{
+    display: block;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+main{
+    width: 1500px;
+    margin: 9px;
+    size: 400px;
+
+}
+main img{
+    width: 1500px;
+    height: 700px;
+}
+nav{
+    text-align: center;
+    width: 100%;
+    background-color: rgb(189, 148, 15);
+    font-family: initial;
+}
+main{
+    font-size: 1px;
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 1490;
+    height: 498px;
+    background-color:rgb(189, 148, 15) ;
+    
+    
+}
+footer{
+    font-size: 25px;
+    background-color:rgb(189, 148, 15) ;
+    font-family: initial;
+    text-align: center;
+    flex-grow: 2;
+}
+main{
+    font-size: 25px;
+    background-color:rgb(189, 148, 15) ;
+    font-family: initial;
+    text-align: center;
+    flex-grow: 2;
+}
+div#foto{
+    margin-top: 70px;
+    text-align: center;
+}
+div#foto img{
+    width: 250px;
+}

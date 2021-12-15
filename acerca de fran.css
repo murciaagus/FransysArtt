@@ -1,0 +1,103 @@
+body{
+    background-color: black;
+    margin: 0%;
+    font-family: sans-serif;
+      
+}
+header{
+    width: 100%;
+    background-color:rgb(189, 148, 15) ;
+}
+#btn-menu{
+    display: none;
+}
+header label{
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-right: 1px solid #fff;
+}
+header label:hover{
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.3);
+}
+.menu ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.menu li{
+    font-family: initial;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.menu li:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+
+}
+
+.menu li a{
+    display: block;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+main{
+    width: 1500px;
+    margin: 9px;
+    size: 400px;
+
+}
+main img{
+    width: 1500px;
+    height: 700px;
+}
+h1{
+    background-color:rgb(189, 148, 15) ;
+    font-family: initial;
+    text-align: center;
+    flex-grow: 2;
+}
+main{
+    width: 1476px;
+    height: 340px;
+    text-size-adjust: 50%;
+    background-color:rgb(189, 148, 15) ;
+    font-size: 25px;
+    font-family: initial;
+    margin: 20px;
+    margin-right: 20px;
+    text-align: center;
+    
+}
+div#foto{
+    
+    text-align: center;
+    margin-top: 13px;
+   
+    border-color: khaki;
+    
+    
+}
+footer{
+    background-color:rgb(189, 148, 15) ;
+    font-family: initial;
+    text-align: center;
+    flex-grow: 2;
+}
+div#premios{
+    background-color:rgb(189, 148, 15) ;
+    margin: 20px;
+    font-family: initial;
+   
+}
+div#foto img{
+    width: 400px;
+    height: 425px;
+    margin: 2px;
+    border-style:outset;
+}
